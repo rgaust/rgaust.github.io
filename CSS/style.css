@@ -11,14 +11,24 @@ h2 {
 
 }
 
+.head{
+    background: #A9A9A9;
+}
+
+.corpo{
+    background: #F8F8FF;
+}
+
 .restrict{
     background: #A9A9A9;
+}
+
+.foot{
+    background: #F8F8FF;
 }
 
 #version{
     font-size: small;
     text-align: center;
     font-style: italic;
-
-
 }
