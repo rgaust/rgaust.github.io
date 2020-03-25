@@ -10,3 +10,15 @@ h2 {
   font-family:arial;
 
 }
+
+.restrict{
+    background: RGB(56,211,222);
+}
+
+#version{
+    font-size: small;
+    text-align: center;
+    font-style: italic;
+
+
+}
