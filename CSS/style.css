@@ -13,10 +13,23 @@ h2 {
 
 .head{
     background: #A9A9A9;
+    border: #A9A9A9  solid;
+
 }
 
 .corpo{
+    margin: 0px;
+}
+
+.main{
     background: #F8F8FF;
+    margin: 0;
+    padding-top: 16px;
+}
+
+.parag{
+    background: #F8F8FF;
+    margin: 0 auto;
 }
 
 .restrict{
