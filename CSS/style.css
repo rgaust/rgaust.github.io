@@ -38,10 +38,21 @@ h2 {
 
 .foot{
     background: #F8F8FF;
+    margin: 0 auto;
+    align-content: center;
 }
 
 #version{
     font-size: small;
     text-align: center;
     font-style: italic;
+}
+
+#mailto{
+    list-style-type: none;
+    font-size: small;
+    text-align: center;
+    font-style: italic;
+    margin: 0 auto;
+    padding-left: 0;
 }
