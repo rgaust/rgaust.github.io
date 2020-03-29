@@ -1,3 +1,5 @@
+/* Geral*/
+
 p {
   font-family: "Arial Narrow","Myriad Pro";
 
@@ -10,13 +12,21 @@ h2 {
   font-family: "Arial Narrow","Myriad Pro";
 
 }
+h3 {
+  font-family: "Arial Narrow","Myriad Pro";
 
+}
+/******************************************/
+
+/* classes e Ids do Header*/
 .head{
     background: #3eb9a8;
     padding: 0 0 0 0;
 
 }
+/******************************************/
 
+/* classes e Ids do Menu*/
 .menu{
     background: #3b7687;
     padding: 6px 0 6px 40px;
@@ -28,30 +38,55 @@ h2 {
     font-size: 14px;
     font-family: "Arial Narrow","Myriad Pro";
 }
+/******************************************/
 
+/* Classes e IDs da estrutura da Home*/
 .corpo{
     width: 780px;
     margin: 0 auto;
-  /*  padding: 0 250px 0 250px; */
     font-family: "Arial Narrow","Myriad Pro";
 }
 
 .main{
-    background: #F8F8FF;
+    background: #eff3eb;
     margin: 0;
     padding-top: 16px;
 }
 
 .parag{
-    background: #F8F8FF;
+    background: #eff3eb;
     margin: 0 auto;
 }
+/******************************************/
 
-.restrict{
-    background: #3eb9a8;
+/* classes e Ids do Login*/
+.login{
+    background: #eff3eb;
+    padding-left: 40px;
+    padding-right: 40px;
     font-family: "Arial Narrow","Myriad Pro";
 }
+/******************************************/
 
+/* classes e Ids do About*/
+.about{
+    background: #eff3eb;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: "Arial Narrow","Myriad Pro";
+}
+/******************************************/
+
+/* classes e Ids do Contact*/
+.contact{
+    background: #eff3eb;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: "Arial Narrow","Myriad Pro";
+}
+/******************************************/
+
+/* classes e Ids do Footer*/
 .foot{
     background: #3b7687;
     margin: 0 auto;
@@ -71,10 +106,11 @@ h2 {
     color: #c5d6db;
     font-family: "Arial Narrow","Myriad Pro";
 }
+/******************************************/
 
-/* classes e Ids das paginas de conteudo*/
-
+/* classes e Ids das paginas de Content*/
 .content{
+    background: #eff3eb;
     width: 780px;
     margin: 0 auto;
   /*  padding: 0 250px 0 250px; */
@@ -109,3 +145,4 @@ h2 {
     font-size: 16px;
     font-family: "Arial Narrow","Myriad Pro";
 }
+/******************************************/

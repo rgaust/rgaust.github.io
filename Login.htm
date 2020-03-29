@@ -5,7 +5,7 @@
 <head>
   <link rel="stylesheet"href="CSS/style.css">
   <meta charset="UTF-8">
-  <title>Contact</title>
+  <title>Login</title>
 </head>
 
 <body>
@@ -19,26 +19,32 @@
             <a href="Contact.htm"> Contact </a>
         </nav>
         <br>
-        <h1 style="text-align: center;"><strong>Contact Me</strong></h1>
+        <h1 style="text-align: center;"><strong>Ambiente Restrito</strong></h1>
         <br>
       </div>
     </header>
 
-    <div class="contact">
-      <br>
-      <br>
-      <a href="mailto:rgaust@yahoo.com?subject=feedback">Mail me</a>
-      <br>
-      <br>
-      <a href="https://www.linkedin.com/in/rogerioaust/">LinkedIn</a>
-      <br>
-      <br>
-      <a href="https://www.facebook.com/rogerio.aust?ref=bookmarks">Facebook</a>
-      <br>
-      <br>
-      <br>
+    <div class="login">
+      <form action="process.php"; method="post">
+        <br>
+        <p><strong>Login </strong></p>
+
+        <p> User:
+          <input name="user" type="text" placeholder="Entre com seu usuário"> <br>
+        </p>
+
+        <p> Password:
+          <input name="passward" type="password" placeholder="Entre com sua senha"><br>
+        </p>
+
+        <p>
+          <input name="submit" type="submit"> <br>
+        </p>
+        <br>
+      </form>
       <br>
     </div>
+
     <footer>
       <div class = "foot">
           <ul id="footer-text">
