@@ -1,24 +1,39 @@
 p {
-  font-family:arial;
+  font-family: "Arial Narrow","Myriad Pro";
 
 }
 h1 {
-  font-family:arial;
+  font-family: "Arial Narrow","Myriad Pro";
 
 }
 h2 {
-  font-family:arial;
+  font-family: "Arial Narrow","Myriad Pro";
 
 }
 
 .head{
-    background: #A9A9A9;
-    border: #A9A9A9  solid;
+    background: #3eb9a8;
+    padding: 0 0 0 0;
 
 }
 
+.menu{
+    background: #3b7687;
+    padding: 6px 0 6px 40px;
+}
+
+.menu a {
+    color: #c5d6db;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Arial Narrow","Myriad Pro";
+}
+
 .corpo{
-    margin: 0px;
+    width: 780px;
+    margin: 0 auto;
+  /*  padding: 0 250px 0 250px; */
+    font-family: "Arial Narrow","Myriad Pro";
 }
 
 .main{
@@ -33,26 +48,26 @@ h2 {
 }
 
 .restrict{
-    background: #A9A9A9;
+    background: #3eb9a8;
+    font-family: "Arial Narrow","Myriad Pro";
 }
 
 .foot{
-    background: #F8F8FF;
+    background: #3b7687;
     margin: 0 auto;
     align-content: center;
-}
-
-#version{
-    font-size: small;
-    text-align: center;
+    padding: 6px 0 6px 0;
     font-style: italic;
+    font-family: "Arial Narrow","Myriad Pro";
 }
 
-#mailto{
-    list-style-type: none;
+#footer-text{
     font-size: small;
     text-align: center;
     font-style: italic;
     margin: 0 auto;
+    list-style-type: none;
     padding-left: 0;
+    color: #c5d6db;
+    font-family: "Arial Narrow","Myriad Pro";
 }
