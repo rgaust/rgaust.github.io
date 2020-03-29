@@ -71,3 +71,41 @@ h2 {
     color: #c5d6db;
     font-family: "Arial Narrow","Myriad Pro";
 }
+
+/* classes e Ids das paginas de conteudo*/
+
+.content{
+    width: 780px;
+    margin: 0 auto;
+  /*  padding: 0 250px 0 250px; */
+    font-family: "Arial Narrow","Myriad Pro";
+    text-decoration: none;
+}
+
+.content img{
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    align-content: center;
+    display: block;
+}
+
+.content p{
+    margin: 0 auto;
+    align-content: center;
+    color: #284a54;
+    padding: 7px 0 8px 0;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Arial Narrow","Myriad Pro";
+}
+
+.content a{
+    margin: 0 auto;
+    align-content: center;
+    color: #284a54;
+    padding: 7px 0 8px 0;
+    text-decoration:underline;
+    font-size: 16px;
+    font-family: "Arial Narrow","Myriad Pro";
+}
