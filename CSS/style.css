@@ -78,11 +78,59 @@ h3 {
 /******************************************/
 
 /* classes e Ids do Contact*/
-.contact{
+#contact-page{
+    /*box-shadow: 5px 8px 10px 15px;*/
+}
+
+#contact{
     background: #eff3eb;
     padding-left: 40px;
     padding-right: 40px;
     font-family: "Arial Narrow","Myriad Pro";
+    margin: 0 auto;
+}
+
+#contact #form-contact{
+    width: 500px;
+    padding: 10px 20px 10px 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: #D6D6D6 2px solid;
+    border-radius: 5px;
+    box-shadow: 10px 13px 13px 15px;
+
+}
+
+#contact #form-contact input{
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background: #D6D6D6;
+    border: #D6D6D6 2px solid;
+
+}
+
+#contact #form-contact #message{
+    border-radius: 5px;
+    background: #D6D6D6;
+    border: #D6D6D6 2px solid;
+    width: 497px;
+    height: 70px;
+
+}
+
+#contact #form-contact #submit{
+    border-radius: 5px;
+    border: #5e9ba5 2px solid;
+    width: 497px;
+    height: 30px;
+    background: #5e9ba5;
+
+}
+
+#contact #form-contact #submit:hover {
+    color: aquamarine;
+
 }
 /******************************************/
 

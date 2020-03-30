@@ -10,7 +10,7 @@
 
 <body>
   <div class="corpo">
-    <header>
+    <header id="contact-page">
       <div class="head">
         <nav class="menu">
             <a href="Index.html"> Home </a> &nbsp; &nbsp; &nbsp;
@@ -24,17 +24,38 @@
       </div>
     </header>
 
-    <div class="contact">
+    <div id="contact">
       <br>
+      <form id ="form-contact" method = "post" action = "Process.php" >
+          <p>
+          <label for="name"> Name:  </label>
+          <input id ="name" type= "text" name = "name" placeholder = "Your name" required>
+          </p>
+          <p>
+          <label for="name"> Email:  </label>
+          <input id = "email" type= "text" name = "email"  placeholder = "Your mail" required>
+          </p>
+          <p>
+          <label id = "subject" for="name"> Suject:  </label>
+          <input type= "text" name = "subject"  placeholder = "Your suject" required>
+          </p>
+          <p>
+          <!--<label for="name"> Message:</label> -->
+          <textarea id="message" name="message" required></textarea>
+          </p>
+          <p>
+          <input id="submit" type= "submit" name = "submit" value = "Send Message">
+          </p>
+
+
+
+      </form>
       <br>
       <a href="mailto:rgaust@yahoo.com?subject=feedback">Mail me</a>
       <br>
-      <br>
       <a href="https://www.linkedin.com/in/rogerioaust/">LinkedIn</a>
       <br>
-      <br>
       <a href="https://www.facebook.com/rogerio.aust?ref=bookmarks">Facebook</a>
-      <br>
       <br>
       <br>
       <br>
